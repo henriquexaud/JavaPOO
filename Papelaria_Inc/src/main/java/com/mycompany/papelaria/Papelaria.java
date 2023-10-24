@@ -3,13 +3,11 @@ package com.mycompany.papelaria;
 public class Papelaria {
 
     public static void main(String[] args) {
-        Caneta c1 = new Caneta();
-        c1.cor = "azul";
-        c1.ponta = 0.5f;
-        c1.tampada = false;
-        c1.modelo = "BIC";
-        c1.carga = 80;
-        
-        c1.status();
+
+        Cliente cliente1 = new Cliente();
+        cliente1.setNome("Alberto");
+        cliente1.setCPF("332.675.832-04");
+
+        cliente1.status();
     }
 }
